@@ -78,7 +78,31 @@
   gap: 0.5rem;
 }
 
-.themeToggle,
+.themeToggle {
+  border: 0;
+  border-radius: 999px;
+  background: var(--surface-strong);
+  color: var(--text);
+  width: 2.15rem;
+  height: 2.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 260ms ease;
+}
+
+.themeIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+}
+
 .mobileToggle {
   border: 0;
   border-radius: 999px;
@@ -88,9 +112,6 @@
   font-size: 0.83rem;
   font-weight: 600;
   cursor: pointer;
-}
-
-.mobileToggle {
   display: none;
 }
 

@@ -19,34 +19,9 @@ export const skills = [
 
 export const projects = [
   {
-    id: 'atlas-shop',
-    title: 'Atlas Commerce',
-    tagline: 'A premium commerce experience designed for motion and conversion.',
-    description:
-      'Built a high-performance storefront with frictionless checkout, modular CMS-driven pages, and immersive product storytelling. The result improved time-to-interaction and increased conversion on mobile-first traffic.',
-    stack: ['Next.js', 'React', 'TypeScript', 'Stripe', 'Sanity'],
-    links: {
-      live: '#',
-      code: '#'
-    },
-    image: '/mockups/atlas-commerce.svg'
-  },
-  {
-    id: 'pulse-care',
-    title: 'Pulse Care Mobile',
-    tagline: 'Healthcare coordination with native-quality interactions.',
-    description:
-      'Designed and shipped a React Native application for appointments, reminders, and secure messaging. Introduced resilient offline states and smooth transitions that reduced support tickets and improved retention.',
-    stack: ['React Native', 'Expo', 'TypeScript', 'Firebase'],
-    links: {
-      live: '#',
-      code: '#'
-    },
-    image: '/mockups/pulse-care.svg'
-  },
-  {
     id: 'VakeelSaab',
     title: 'VakeelSaab',
+    category: 'work',
     tagline: 'Legal Consulatation & Tech Platform',
     description:
       'Built a high-performance web platform using SSR, ISR, and CSR for optimized rendering and smooth UX. Integrated MongoDB for data management and Payload CMS for dynamic content with full CRUD capabilities, ensuring a scalable and maintainable foundation.',
@@ -56,7 +31,50 @@ export const projects = [
       code: '#'
     },
     image: '/assets/vakeelsaabimg.png'
-  }
+  },
+  {
+    id: 'atlas-shop',
+    title: 'Atlas Commerce',
+    category: 'featured',
+    tagline: 'A premium commerce experience designed for motion and conversion.',
+    description:
+      'Built a high-performance storefront with frictionless checkout, modular CMS-driven pages, and immersive product storytelling. The result improved time-to-interaction and increased conversion on mobile-first traffic.',
+    stack: ['Next.js', 'React', 'TypeScript', 'Stripe', 'Sanity'],
+    links: {
+      live: '#',
+      code: '#'
+    },
+    image: '/images/atlasImg.png'
+  },
+  {
+    id: 'MyFitnessPro',
+    title: 'MyFitnessPro',
+    category: 'featured',
+    tagline: 'Smart, personalized fitness planning.',
+    description:
+      'Designed and developed a React Native application that generates personalized fitness and nutrition plans based on user inputs like height, weight, age, and goals (muscle gain, bulking, or fat loss). Implemented smart logic to deliver structured workouts and diet recommendations, focusing on simplicity, fast onboarding, and actionable insights.',
+    stack: ['React Native', 'TypeScript', 'Firebase'],
+    links: {
+      live: '#',
+      code: '#'
+    },
+    image: '/mockups/pulse-care.svg'
+  },
+  
+  // {
+  //   id: 'enterprise-dashboard',
+  //   title: 'DataInsight CRM',
+  //   category: 'work',
+  //   tagline: 'Internal Tooling for scalable data management.',
+  //   description:
+  //     'Engineered a comprehensive CRM dashboard for a logistics firm, streamlining fleet management and real-time package tracking. Optimized data fetching strategies to handle large-scale datasets with minimal latency.',
+  //   stack: ['React', 'Redux', 'D3.js', 'PostgreSQL', 'AWS'],
+  //   links: {
+  //     live: '#',
+  //     code: '#'
+  //   },
+  //   image: '/images/dashboard-preview.png'
+  // }
 ] as const;
 
 export const experience = [

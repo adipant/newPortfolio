@@ -68,7 +68,7 @@
 
 .heroTitle {
   margin: 0;
-  font-size: clamp(2.4rem, 7.9vw, 5.2rem);
+  font-size: clamp(2rem, 7.9vw, 5rem);
   line-height: 1.02;
   letter-spacing: -0.05em;
   display: block;

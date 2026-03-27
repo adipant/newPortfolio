@@ -28,9 +28,9 @@ export default function HomePage() {
       <motion.main initial="initial" animate="animate" variants={pageVariants}>
         <HeroSection />
         <AboutSection />
-        <SkillsSection />
-        <ProjectsSection />
         <ExperienceSection />
+        <ProjectsSection />
+        <SkillsSection />
         <ContactSection />
       </motion.main>
     </>

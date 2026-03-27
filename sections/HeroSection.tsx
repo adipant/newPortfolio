@@ -47,8 +47,11 @@ export function HeroSection() {
 
         <motion.div className={styles.heroActions} variants={fadeUpChild}>
           <MagneticButton href="#projects">View Projects</MagneticButton>
+          <MagneticButton href="/assets/AdityaPant CV.pdf" variant="secondary" download="AdityaPant_CV.pdf">
+            Download CV
+          </MagneticButton>
           <MagneticButton href="#contact" variant="secondary">
-            Start a Conversation
+            Let's Talk
           </MagneticButton>
         </motion.div>
       </motion.div>
