@@ -30,7 +30,7 @@ export const projects = [
       live: 'https://vakeelsaab.com',
       code: '#'
     },
-    image: '/images/vakeelsaabimg.png'
+    image: '/images/vakeelsaabImg.png'
   },
   {
     id: 'atlas-shop',
